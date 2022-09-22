@@ -1,11 +1,10 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * _puts - Write a function that prints a string, followed
- * by a new line, to stdout.
- * @str: an input string
- * Return: Nothing
+ * _puts - prints a string to stdout
+ * @str: pointer parameter
+ * Author: sammykingx
  */
+
 void _puts(char *str)
 {
 	int i = 0;
@@ -15,5 +14,6 @@ void _puts(char *str)
 		_putchar(str[i]);
 		i++;
 	}
+
 	_putchar('\n');
 }
